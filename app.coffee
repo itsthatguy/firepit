@@ -18,6 +18,6 @@ port = 3002
 webserver.listen(port)
 
 app.get '/', (req, res) ->
-  res.render('/.generated/index.html')
+  res.render('../.generated/index.html')
 
 module.exports = webserver
